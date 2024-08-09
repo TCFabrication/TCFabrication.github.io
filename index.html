@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Aurum</title>
+<!-- Disable Smartphone Inital Scale -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+<!-- CSS includes -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css" media="screen" charset="utf-8"/> 
+<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8"/>
+
+
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- PhotoSwipe CSS -->
+<link rel="stylesheet" href="css/photoswipe.css" type="text/css" media="screen" charset="utf-8"/>
+
+<!-- Full / Mobile Site CSS Media Queries -->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/media-queries.css"/>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+
+<link rel="canonical" href="http://www.aurum.com.au/"/>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/jquery.validationEngine-en.js"></script> 
+<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+
+<!-- PhotoSwipe -->
+<script type="text/javascript" src="js/klass.min.js"></script>
+<script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+
+<!-- Mobile Javascript START -->
+<script type="text/javascript" src="js/detectmobilebrowser.js"></script>
+<script type="text/javascript" src="js/mobile.js"></script>
+
+<!-- @Font-Face JS Compatibility Check.Override -->
+<script type="text/javascript">
+if (navigator.userAgent.match(/(Android (2.0|2.1))|(Nokia)|(OSRE\/)|(Opera (Mini|Mobi))|(w(eb)?OSBrowser)|(UCWEB)|(Windows Phone OS 7)|(XBLWP)|(ZuneWP)/)) {
+	var fileref=document.createElement('link');
+	fileref.setAttribute('rel', 'stylesheet');
+	fileref.setAttribute('type', 'text/css');
+	fileref.setAttribute('media', 'screen');
+	fileref.setAttribute('href', '/css/font-face-override.css');
+	document.getElementsByTagName("head")[0].appendChild(fileref);
+}
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#show-phone").click(function(){
+			$(this).toggleClass('active');
+			$("#phoneno-mobile").toggleClass('active');
+			$("#phoneno-mobile").slideToggle();
+			return false;
+		});
+	});
+</script>
+ 
+<!-- Analytics Start -->
+<!-- Analytics End -->
+
+</head>
+<body class="home ">
+<!-- Site Container Start -->
+<!--
+<!-- Mobile Header START 
+<div class="mobile-header">
+	<ul class="clearfloat">
+		<li class="m-menu">
+			<a><i class="icon-reorder typeface-js"></i><span class="menu-open">Menu</span><span class="menu-close">Close</span></a>
+		</li>
+		<li class="m-home">
+			<a href="http://www.aurum.com.au/"><i class="icon-home"></i>Home</a>
+		</li>
+		<li class="m-email">
+			
+    <script type="text/javascript">
+      var ea = "<a href='mailto:";
+      var eb = "accounting";
+      var ec = "aurum.com.au";
+      var ed = "' class='email' title='Email Us'><i class='icon-envelope'></i>";
+      var ee = "</a>";
+      document.write(ea+eb+"@"+ec+ed+"Email"+ee);
+    </script>
+    <noscript>Please enable JavaScript to view emails</noscript>
+  		</li>
+		<li class="m-call">
+			<a href="tel: (03) 5278 4848"><i class="icon-phone"></i>Call Us</a>
+		</li>
+	</ul>
+</div> Mobile Header END -->
+
+
+
+<div id="container-all-outer">
+<div id="container-all-inner">
+<!-- <div class="mobile-menu"><ul id="top" class="top pid-0"><li class=" active"><a href="http://www.aurum.com.au/">Home</a></li><li class=""><a href="#">Firm Profile</a><ul id="" class=" pid-4"><li class="sub"><a href="http://www.aurum.com.au/firm-profile/">About Us</a></li><li class="sub"><a href="/web/20181129201111/http://www.aurum.com.au/our-commitment/">Our Commitment</a></li><li class="sub"><a href="http://www.aurum.com.au/why-aurum-group/">Why Aurum Group?</a></li></ul></li><li class=""><a href="#">CPA Services</a><ul id="" class=" pid-5"><li class="sub"><a href="http://www.aurum.com.au/accounting-taxation/">Accounting &amp; Taxation</a></li><li class="sub"><a href="http://www.aurum.com.au/company-formations-and-company-secreterials/">Company Formations and Company Secreterials</a></li><li class="sub"><a href="http://www.aurum.com.au/self-managed-superannuation-fund-servicesself-managed-superannuation-fund-services/">Self-Managed Superannuation Fund Services</a></li><li class="sub"><a href="http://www.aurum.com.au/tax-planning/">Tax Planning</a></li><li class="sub"><a href="http://www.aurum.com.au/wealth-creation/">Wealth Creation</a></li><li class="sub"><a href="http://www.aurum.com.au/property-investment-and-negative-gearing/">Property Investment and Negative Gearing</a></li><li class="sub"><a href="http://www.aurum.com.au/business-coach/">Business Coach</a></li><li class="sub"><a href="#">Financial Services</a><ul id="" class=" pid-8"><li class="subsub"><a href="http://www.aurum.com.au/loan-amp-mortagages/">Loan &amp; Mortagages</a></li><li class="subsub"><a href="http://www.aurum.com.au/vehicle-amp-equipment-finance/">Vehicle &amp; Equipment Finance</a></li></ul></li></ul></li><li class=""><a href="#">Resources</a><ul id="" class=" pid-6"><li class="sub"><a href="http://www.aurum.com.au/Key-Dates/">Key Dates</a></li><li class="sub"><a href="http://www.aurum.com.au/useful-links/">Useful Links</a></li><li class="sub"><a href="http://www.aurum.com.au/tools-amp-calculators/">Tools &amp; Calculators</a></li></ul></li><li class=""><a href="#">News</a><ul id="" class=" pid-7"><li class="sub"><a href="http://www.aurum.com.au/proactiv/">Proactive Accountants Conference | BALI 2015</a></li><li class="sub"><a href="http://www.aurum.com.au/news/">News</a></li></ul></li><li class=""><a href="http://www.aurum.com.au/contact-us/">Contact</a></li></ul></div><div class="mobile-menu-bg"></div>
+ -->
+<div id="container-all">
+<div class="container">
+<div class="headerTop"></div>
+<!-- Header Start -->
+<div id="header" class="clearfloat">
+	<div class="logo clearfloat">
+		<a href="http://www.aurum.com.au/" border="0" class="full-logo"><img src="files/banner.png" alt="Aurum"/></a>
+	</div><!-- .logo -->
+	<div class="call-to-action">
+		<!-- <div class="contact-name">Contact Us Today</div> -->
+		<div class="ctaLeft">
+          <div class="contact-phone">
+        <span>Get in contact: </span> (03) 5278 4848 <span>|</span>
+      </div>
+          <div class="contact-email">
+       
+    <script type="text/javascript">
+      var ea = "<a href='mailto:";
+      var eb = "accounting";
+      var ec = "aurum.com.au";
+      var ed = "' class='email' title='Email Us'><i class='icon-envelope'></i>";
+      var ee = "</a>";
+      document.write(ea+eb+"@"+ec+ed+eb+"@"+ec+ee);
+    </script>
+    <noscript>Please enable JavaScript to view emails</noscript>
+        </div>
+    		</div>
+		<div class="ctaRight">
+		<div class="contact-social">
+			<!--<a href="mailto:accounting@aurum.com.au" target="_blank" class="social-email" >
+				<div class="title">Email Us</div>
+				<img src="/files/social/email-dark.png" alt="Email Us" title="Email Us" />
+			</a>-->
+			<a href="https://www.facebook.com/Aurum-Accounting-Group-146660418774774/" target="_blank">
+				<div class="title">Facebook</div>
+				<img src="files/icons/facebook-white.png" alt="Find Us On Facebook" title="Find Us On Facebook"/>
+			</a>
+			<!--<a href="http://www.twitter.com/" target="_blank" >
+				<div class="title">Twitter</div>
+				<img src="/files/social/twitter-dark.png" alt="Follow Us On Twitter" title="Follow Us On Twitter" />
+			</a>-->
+			<a href="https://www.linkedin.com/company/aurum-accounting-group" target="_blank">
+				<div class="title">LinkedIn</div>
+				<img src="files/icons/linked-in-white.png" alt="Connect With Us On LinkedIn" title="Connect With Us On LinkedIn"/>
+			</a>
+			<!--<a href="http://www.youtube.com/" target="_blank" >
+				<div class="title">YouTube</div>
+				<img src="/files/social/youtube-dark.png" alt="Watch Us On YouTube" title="Watch Us On YouTube" />
+			</a>
+			<a href="http://www.vimeo.com/" target="_blank" >
+				<div class="title">Vimeo</div>
+				<img src="/files/social/vimeo-dark.png" alt="Watch Us On Vimeo" title="Watch Us On Vimeo" />
+			</a>
+			<a href="http://www.instagram.com/" target="_blank" >
+				<div class="title">Instagram</div>
+				<img src="/files/social/instagram-dark.png" alt="Find Us On Instagram" title="Find Us On Instagram" />
+			</a>
+			<a href="http://www.skype.com/" target="_blank" >
+				<div class="title">Skype</div>
+				<img src="/files/social/skype-dark.png" alt="Skype With Us" title="Skype With Us" />
+			</a>
+			<a href="https://plus.google.com/" target="_blank" >
+				<div class="title">Google+</div>
+				<img src="/files/social/google-plus-dark.png" alt="Google Plus" title="Google Plus" />
+			</a>
+			<a href="https://pinterest.com/" target="_blank" >
+				<div class="title">Pinterest</div>
+				<img src="/files/social/pinterest-dark.png" alt="Pinterest" title="Pinterest" />
+			</a>-->
+			<!--<a href="/contact-us/" target="_blank" >
+				<div class="title">Contact Us</div>
+				<img src="/files/social/phone-dark.png" alt="Contact Us" title="Contact Us" />
+			</a>
+			<a href="mailto:accounting@aurum.com.au" target="_blank" >
+				<div class="title">Email Us</div>
+				<img src="/files/social/email-dark.png" alt="Email Us" title="Email Us" />
+			</a>-->
+		</div><!-- .contact-social -->
+		</div>
+	</div><!-- .call-to-action -->
+<!-- Navigation Start -->
+<div id="menu" class="clearfloat">
+  <ul id="top" class="top pid-0">
+	<li class=" active"><a href="http://www.aurum.com.au/">Home</a></li>
+	<li class=""><a href="#">Firm Profile</a><ul id="" class=" pid-4">
+	<li class="sub"><a href="aboutus.html">About Us</a></li>
+	<li class="sub"><a href="commitment.html/">Our Commitment</a></li>
+	<li class="sub"><a href="whyaurum.html">Why Aurum Group?</a></li></ul></li>
+	<li class=""> <a href="#">CPA Services</a><ul id="" class=" pid-5">
+	<li class="sub"><a href="accountingtaxation.html">Accounting &amp; Taxation</a></li>
+	<li class="sub"><a href="companyformations.html">Company Formations and Company Secreterials</a></li>
+	<li class="sub"><a href="superannuation.html/">Self-Managed Superannuation Fund Services</a></li>
+	<li class="sub"><a href="taxplanning.html">Tax Planning</a></li>
+	<li class="sub"><a href="wealthcreation.html">Wealth Creation</a></li>
+	<li class="sub"><a href="property.html">Property Investment and Negative Gearing</a></li>
+	<li class="sub"><a href="businesscoach.html">Business Coach</a></li><li class="sub"><a href="#">Financial Services</a>
+	<ul id="" class=" pid-8"><li class="subsub"><a href="loan.html">Loan &amp; Mortagages</a></li>
+	<li class="subsub"><a href="vehiclefinance.html">Vehicle &amp; Equipment Finance</a></li></ul></li></ul></li>
+	<li class=""><a href="#">Resources</a><ul id="" class=" pid-6">
+	<li class="sub"><a href="keydates.html">Key Dates</a></li>
+	<li class="sub"><a href="usefullinks.html">Useful Links</a></li>
+	<li class="sub"><a href="tools.html">Tools &amp; Calculators</a></li></ul></li>
+	<li class=""><a href="#">News</a>
+	<ul id="" class=" pid-7">
+	<li class="sub"><a href="proactiv.html">Proactive Accountants Conference | BALI 2015</a></li>
+	<li class="sub"><a href="news.html">News</a></li></ul></li>
+	<li class=""><a href="contactus.html">Contact</a></li></ul>
+</div>
+<!-- Navigation End -->
+</div><!-- #header --> 
+<!-- Header End -->
+
+<div id="wrapper" class="clearfloat">
+	<div class="topCon outsideCon">
+		<table width="100%" cellpadding="10">
+			<tr>
+				<td><a href="#"><img src="files/finance.jpg" alt="finance"/></a></td>
+				<td><a href="#"><img src="files/accounting.jpg" alt="accounting"/></a></td>
+				<td><a href="#"><img src="files/wealthcreation.jpg" alt="wealth"/></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+<!-- slider  -->
+
+<!-- Slider Start -->
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+</script>
+<div id="slider-container">
+	<div id="slider-wrapper" class="slider">
+		<div id="slider" class="nivoSlider" style=";height:750px;overflow: hidden;">
+			<img src="files/slides/slide01.jpg"/>
+			<img src="files/slides/slide02.jpg"/>
+			<img src="files/slides/slide03.jpg"/>
+			<img src="files/slides/slide04.jpg"/>
+			<img src="files/slides/slide05.jpg"/>
+			<img src="files/slides/slide06.jpg"/>
+		</div><div class="slider-overlay"></div>
+	</div><!-- Slider Wrapper End -->
+</div><!-- Slider Container End -->
+<!-- slider end -->
+
+<!-- Content Start -->
+<div id="wrapper" class="clearfloat">
+
+
+	<div class="topCon insideCon">
+		<table width="100%" cellpadding="10">
+			<tr>
+				<td><a href="#"><img src="files/accounting.jpg" alt="accounting"/></a></td>
+				<td><a href="#"><img src="files/finance.jpg" alt="finance"/></a></td>
+				<td><a href="#"><img src="files/wealthcreation.jpg" alt="wealth"/></a></td>
+			</tr>
+		</table>
+	</div>
+
+
+<div class="content-middle clearfloat rightSide">
+  <div class="heading">
+	  	  <h1>Aurum Accounting Group is a Geelong based  CPA boutique accounting firm</h1>
+      </div><!-- .heading -->
+
+  <div class="content clearfloat">
+	  <p><span style="font-family: helvetica;">Aurum Accounting is a firm of Certified Practising Accountants in Geelong, Victoria, providing a full range of flexible accounting and taxation services to small and medium sized businesses in Australia.</span></p>
+<p><span style="font-family: helvetica;">We aim to provide you, the business owner, with financial information and advice that is insightful, without jargon, and in good time to help you make the right financial decisions for the future, so that you feel comfortable with, and in control of, your business finances.</span></p>
+<p><span style="font-family: helvetica;">Take a look at our <a href="https://web.archive.orghttp://www.ascendaccounting.co.uk/Services.aspx">services</a> right now to see all the areas in which we can ease the pressure on you, allowing you to focus on the business.&nbsp;&nbsp;Not only will we ensure that you are compliant with the enormity of regulations and deadlines, but we also offer financial guidance and mentoring, looking at what&rsquo;s happening &lsquo;behind&rsquo; the numbers, and taking a genuine interest in your business Ascendance.&nbsp;</span></p>
+<p><span style="font-family: helvetica;">&nbsp;We offer the comfort of fixed fees agreed in advance with no additional hidden charges for phone calls, letters etc.&nbsp;So if you are looking for a modern, approachable, forward looking accounting practice, then please <a href="/http://www.ascendaccounting.co.uk/ContactUs.aspx">contact us</a> today for a free consultation or quote.</span></p>
+<h2><span style="font-family: helvetica;">Our Services</span></h2>
+<p><span style="font-family: helvetica;">Our unique business model allows our clients to enjoy the benefits of a service that caters for all their business needs and the support of a practice that has extensive experience and a thorough understanding of how businesses work.</span></p>
+<p><span style="font-family: helvetica;">We are committed to providing our clients with practical, high quality, commercial advice that addresses all their business needs in a timely and cost-effective manner.</span></p>
+<p><span style="font-family: helvetica;">Our success is based on client growth and referrals. A key strength is the Principals&#39; commercial experience in guiding small to medium organisations through their stages of development and growth.</span></p>
+<p><span style="font-family: helvetica;">Our team of experts practice in the following disciplines:</span></p>
+<ul type="disc">
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Accounting</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Taxation</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Financing</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Business Services</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>CorporateServices</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Law&nbsp;(Alliance)</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Financial Planning (Alliance)</strong></span></em></span></li>
+<li><span style="font-size: 10pt;"><em><span style="font-family: helvetica;"><strong>Insurance</strong></span></em></span></li>
+</ul>
+<p><span style="font-size: 14pt;"><em><strong><span style="font-family: helvetica;">We would welcome the opportunity to assist you with your business needs.&nbsp; All new business clients receive a <span style="text-decoration: underline;">FREE</span> initial consultation.</span></strong></em></span></p> 
+  </div><!-- .content --> 
+  
+</div><!-- .content-middle --> 
+<div class="sidebar"><div class="widget home_widget widget0"><h1><span style="color: #33cccc;"><span style="color: #000000;">Recent News &amp; Updates</span><br/><span style="font-size: 12pt;">Preparing for SuperStream:</span></span><span style="font-size: 12pt;">&nbsp;</span></h1>
+<p>SuperStream is a standard for processing superannuation data and payments electronically.</p>
+<p>Under SuperStream, you need to pay super contributions for your employees electronically (EFT or BPAY) and send the associated data electronically.</p>
+<p>The data is in a standard format so it can be transmitted consistently across the super system &ndash; between employers, funds, service providers and the ATO. It&#39;s linked to the payment by a unique payment reference number.</p>
+<p>This means you can make all your contributions in a single transaction, even if they&#39;re going to multiple super funds.</p>
+<h2><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KBQXb6uSQzg?rel=0&amp;hd=0" height="385" width="640" frameborder="0"> </iframe></h2></div></div></div><!-- Wrapper End -->
+
+<!-- View Full / Mobile Site Buttons Start 
+<div class="view">
+	<a id="view_mob_link" href="?view=mob">View Mobile Site</a>
+	<a id="view_full_link" href="?view=full">View Full Site</a>
+</div>
+View Full / Mobile Site Buttons End -->
+
+<!-- Footer Start -->
+<div id="footer-contain">
+	<div id="footer" class="clearfloat">
+		
+		<div class="footer-custom clearfloat">
+	<div class="footer-about">
+		<h3><a href="http://www.aurum.com.au/" title="Aurum Accounting">Aurum Accounting</a></h3>
+		Aurum Accounting is a firm of Certified Practising Accountants in Geelong, Victoria, providing a full range of flexible accounting and taxation services to small and medium sized businesses in Australia.<br/><img border="0" src="https://web.archive.org/web/20181129201111im_/http://aurum.com.au/images/cpa.png" height="66" width="140"/>	</div><!-- .footer-about -->
+
+	<div class="footer-contact" itemscope itemtype="http://schema.org/LocalBusiness">
+		<h3><a href="http://www.aurum.com.au/contact-us/">Contact Us</a></h3>		
+				<div class="contact-email">
+			<span class="label">Email:</span>
+    <script type="text/javascript">
+      var ea = "<a href='mailto:";
+      var eb = "accounting";
+      var ec = "aurum.com.au";
+      var ed = "' class='email' title='Email Us'><i class='icon-envelope'></i>";
+      var ee = "</a>";
+      document.write(ea+eb+"@"+ec+ed+eb+"@"+ec+ee);
+    </script>
+    <noscript>Please enable JavaScript to view emails</noscript>
+  		</div><!-- .contact-email -->
+				<div class="contact-phone">
+			<span class="label">Phone:</span><span itemprop="telephone"> (03) 5278 4848</span>
+		</div><!-- .contact-phone -->
+				<div class="contact-fax">
+			<span class="label">Fax:</span>03 5277 1113		</div><!-- .contact-fax -->
+				<div class="contact-address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span class="label">Address:</span>
+			<span itemprop="streetAddress">Level 1/87 Separation St</span>, 
+			<span itemprop="addressLocality">North Geelong</span>, 
+			<span itemprop="addressRegion">Victoria</span>, 
+			<span itemprop="postalCode">3215</span>
+		</div><!-- .contact-address -->
+	</div><!-- .footer-contact -->
+		<div class="busshours">
+			<h3>Business Hours</h3>	
+			Monday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30am - 5:30pm<br/>
+			Tuesday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30am - 5:30pm<br/>
+			Wednesday:&nbsp;8:30am - 5:30pm<br/>
+			Thursday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30am - 5:30pm<br/>
+			Friday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30am - 5:30pm<br/>
+			Saturday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open by appointment only<br/>
+			Sunday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSED
+			<!-- <table>
+				<tr>
+					<td>Monday: </td>
+					<td>8:30am - 5:30pm</td>
+				</tr>
+				<tr>
+					<td>Tuesday: </td>
+					<td>8:30am - 5:30pm</td>
+				</tr>
+				<tr>
+					<td>Wednesday: </td>
+					<td>8:30am - 5:30pm</td>
+				</tr>
+				<tr>
+					<td>Thursday: </td>
+					<td>8:30am - 5:30pm</td>
+				</tr>
+				<tr>
+					<td>Friday: </td>
+					<td>8:30am - 5:30pm</td>
+				</tr>
+				<tr>
+					<td>Saturday: </td>
+					<td>Open by appointment only</td>
+				</tr>
+				<tr>
+					<td>Sunday: </td>
+					<td>CLOSED</td>
+				</tr>
+			</table> -->
+		</div>
+	<div class="mini_sitemap">
+		<h3><a href="http://www.aurum.com.au/sitemap.php">Sitemap</a></h3>
+		<div class=""><ul id="top" class="top pid-0"><li class=" active"><a href="http://www.aurum.com.au/">Home</a></li><li class=""><a href="#">Firm Profile</a><ul id="" class=" pid-4"><li class="sub"><a href="http://www.aurum.com.au/firm-profile/">About Us</a></li><li class="sub"><a href="http://www.aurum.com.au/our-commitment/">Our Commitment</a></li><li class="sub"><a href="http://www.aurum.com.au/why-aurum-group/">Why Aurum Group?</a></li></ul></li><li class=""><a href="#">CPA Services</a><ul id="" class=" pid-5"><li class="sub"><a href="http://www.aurum.com.au/accounting-taxation/">Accounting &amp; Taxation</a></li><li class="sub"><a href="http://www.aurum.com.au/company-formations-and-company-secreterials/">Company Formations and Company Secreterials</a></li><li class="sub"><a href="http://www.aurum.com.au/self-managed-superannuation-fund-servicesself-managed-superannuation-fund-services/">Self-Managed Superannuation Fund Services</a></li><li class="sub"><a href="http://www.aurum.com.au/tax-planning/">Tax Planning</a></li><li class="sub"><a href="http://www.aurum.com.au/wealth-creation/">Wealth Creation</a></li><li class="sub"><a href="http://www.aurum.com.au/property-investment-and-negative-gearing/">Property Investment and Negative Gearing</a></li><li class="sub"><a href="http://www.aurum.com.au/business-coach/">Business Coach</a></li><li class="sub"><a href="#">Financial Services</a><ul id="" class=" pid-8"><li class="subsub"><a href="http://www.aurum.com.au/loan-amp-mortagages/">Loan &amp; Mortagages</a></li><li class="subsub"><a href="http://www.aurum.com.au/vehicle-amp-equipment-finance/">Vehicle &amp; Equipment Finance</a></li></ul></li></ul></li><li class=""><a href="#">Resources</a><ul id="" class=" pid-6"><li class="sub"><a href="http://www.aurum.com.au/Key-Dates/">Key Dates</a></li><li class="sub"><a href="http://www.aurum.com.au/useful-links/">Useful Links</a></li><li class="sub"><a href="http://www.aurum.com.au/tools-amp-calculators/">Tools &amp; Calculators</a></li></ul></li><li class=""><a href="#">News</a><ul id="" class=" pid-7"><li class="sub"><a href="http://www.aurum.com.au/proactiv/">Proactive Accountants Conference | BALI 2015</a></li><li class="sub"><a href="http://www.aurum.com.au/news/">News</a></li></ul></li><li class=""><a href="http://www.aurum.com.au/contact-us/">Contact</a></li></ul></div>	</div><!-- .mini_sitemap -->
+</div><!-- .footer-custom -->
+		
+	</div><!-- #footer -->
+
+	<div class="footer-mywork">
+		<!-- Company Coyright -->
+		<span class="left">
+			&copy; 2018 Aurum Accounting		</span>
+		
+
+	</div><!-- Footer End -->
+</div><!-- Footer Container End -->
+</div><!-- Site Container End -->
+</body></html>
